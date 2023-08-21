@@ -94,7 +94,7 @@
       </nav>
 
       <!-- INTRODUCTION -->
-      <div id="demo" class="carousel slide" data-interbal="false">
+      <div id="demo" class="carousel slide" data-interval="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container-fluid intro-container">
@@ -169,13 +169,15 @@
             </div>
           </div>
         </div>
-        <div class="carousel-btn-container">
-          <button type="button" data-bs-target="#demo" data-bs-slide="prev">
-            <span class="material-symbols-outlined">arrow_left_alt</span>
-          </button>
-          <button type="button" data-bs-target="#demo" data-bs-slide="next">
-            <span class="material-symbols-outlined">arrow_right_alt</span>
-          </button>
+        <div class="carousel-footer">
+          <div class="carousel-btn-container ms-auto">
+            <button type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="material-symbols-outlined">arrow_left_alt</span>
+            </button>
+            <button type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="material-symbols-outlined">arrow_right_alt</span>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -195,7 +197,7 @@
           </div>
         </div>
         <div class="cards-container row">
-          <div id="projects" class="card col-lg-3">
+          <div class="card col-lg-3">
             <div class="card-title">
               <img src="img/card-project.png" alt="Projekty" />
               <h4>Projekty</h4>
@@ -225,7 +227,7 @@
               </div>
             </div>
           </div>
-          <div id="visualization" class="card col-lg-3">
+          <div class="card col-lg-3">
             <div class="card-title">
               <img src="img/card-visualization.png" alt="Wizualizacje" />
               <h4>Wizualizacje</h4>
@@ -255,7 +257,7 @@
               </div>
             </div>
           </div>
-          <div id="realization" class="card col-lg-3">
+          <div class="card col-lg-3">
             <div class="card-title">
               <img src="img/card-realization.png" alt="Realizacje" />
               <h4>Realizacje</h4>
@@ -462,7 +464,7 @@
             <a
               type="button"
               target="_blank"
-              href="https://www.instagram.com/adrespect/ class="
+              href="https://www.instagram.com/adrespect/"
               class="btn rounded-pill"
               >Instagram <span class="spanBg"></span><span class="spanBg"></span
               ><span class="spanBg"></span><span class="spanBg"></span>
@@ -503,27 +505,11 @@
                 >LinkedIn</a
               >
             </div>
-            <div class="col-auto">
-              <button
-                data-bs-container="body"
-                data-bs-toggle="popover"
-                data-bs-trigger="focus"
-                data-bs-placement="top"
-                data-bs-content="Content copied"
-                class="phone-btn"
-              >
-                000-000-000
-              </button>
-              <button
-                data-bs-container="body"
-                data-bs-toggle="popover"
-                data-bs-trigger="focus"
-                data-bs-placement="top"
-                data-bs-content="Content copied"
-                class="email-btn"
-              >
+            <div class="col-auto mail-mob-container">
+              <a href="tel:+48000000000" class="phone-btn"> 000-000-000 </a>
+              <a href="mailto:giarddesign@kontakt.pl" class="email-btn">
                 giarddesign@kontakt.pl
-              </button>
+              </a>
             </div>
           </div>
           <div class="row third-row">
